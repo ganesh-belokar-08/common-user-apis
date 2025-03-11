@@ -1,0 +1,33 @@
+API Endpoints
+1. Authentication APIs
+✅ POST /api/register – Register a new user
+✅ POST /api/login – User login (JWT)
+✅ POST /api/logout – Logout user
+✅ POST /api/refresh-token – Refresh access token
+
+2. Profile Management
+✅ GET /api/users/:userId – Get user profile-DONE
+✅ PUT /api/users/:userId – Update profile-DONE
+✅ DELETE /api/users/:userId – Delete account-DONE
+
+3. Password Management
+✅ POST /api/forgot-password – Send reset link-DONE
+✅ POST /api/reset-password – Reset password-DONE
+✅ POST /api/change-password – Change password-DONE
+
+4. Email Verification
+✅ POST /api/send-verification-email-DONE
+✅ POST /api/verify-email-DONE
+
+5. Social Authentication
+✅ POST /api/auth/google
+
+6. Two-Factor Authentication (2FA)
+✅ POST /api/enable-2fa
+✅ POST /api/verify-2fa
+✅ POST /api/disable-2fa
+
+
+
+
+
